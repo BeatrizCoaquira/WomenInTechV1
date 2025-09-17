@@ -33,7 +33,7 @@ jobs:
       run: npm install --no-audit --no-fund
       
     - name: Build
-      run: npm run build
+      run: node node_modules/react-scripts/bin/react-scripts.js build
       
     - name: Setup Pages
       uses: actions/configure-pages@v4
